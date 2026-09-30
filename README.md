@@ -10,7 +10,7 @@ Video tutorial for build a new Galagino V3.0:  https://youtu.be/Nz3LRrY3Ukw
 
 To build a joystick follow Galagino V2.0 video: https://youtu.be/YmvyNwJLqJM
 
-ported from Survival hacking version of Galagino 3.2 with 23 games.
+Ported from Survival hacking version of Galagino 3.2 with 23 games.
 
 ported from speckholier platformio to Arduino IDE - with 8 additional games: https://github.com/speckhoiler/galagino
 
