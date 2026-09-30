@@ -11,8 +11,11 @@ Video tutorial for build a new Galagino V3.0:  https://youtu.be/Nz3LRrY3Ukw
 To build a joystick follow Galagino V2.0 video: https://youtu.be/YmvyNwJLqJM
 
 ported from Survival hacking version of Galagino 3.2 with 23 games.
+
 ported from speckholier platformio to Arduino IDE - with 8 additional games: https://github.com/speckhoiler/galagino
+
 This repo is a port of Till Harbaum's awesome [Galaga emulator](https://github.com/harbaum/galagino) ported to platformio.
+
 This port is NOT by the original author, so please do not bother him with issues.
 
 ![IMG_6985_(00-00-00-00)](https://github.com/user-attachments/assets/6cb5540a-4477-43ef-997c-9424cbe6df4d)
