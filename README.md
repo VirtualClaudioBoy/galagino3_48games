@@ -1,4 +1,6 @@
-# Galagino 3.2A a special LVL ESP32-2432S024 / ESP32-024 porting with enanched joystick and flyer oled display, with bluethooth support for external controller.
+# Galagino 3.2A a special LVL ESP32-2432S024 / ESP32-024 porting with enanched joystick and flyer oled display, with bluethooth support for external controller. 
+# Now with 48 games !!!
+
 Also updated to support ESP32-024 CYD clone modules, see info below.
 
 Galagino V3.2A software can be uploaded on V2.0 hardware without any modification.
@@ -8,6 +10,7 @@ Video tutorial for build a new Galagino V3.0:  https://youtu.be/Nz3LRrY3Ukw
 
 To build a joystick follow Galagino V2.0 video: https://youtu.be/YmvyNwJLqJM
 
+ported from Survival hacking version of Galagino 3.2 with 23 games.
 ported from speckholier platformio to Arduino IDE - with 8 additional games: https://github.com/speckhoiler/galagino
 This repo is a port of Till Harbaum's awesome [Galaga emulator](https://github.com/harbaum/galagino) ported to platformio.
 This port is NOT by the original author, so please do not bother him with issues.
@@ -43,29 +46,55 @@ And uncomment the line:   #define CHEAP_YELLOW_DISPLAY_CONF_ALT
 
 ---
 
-<img width="195" height="259" alt="tutankham" src="https://github.com/user-attachments/assets/95170047-8a0e-475a-87dd-19cfe15cdc7c" />
-<img width="210" height="240" alt="timeplt" src="https://github.com/user-attachments/assets/f26e6cde-2d99-4c92-a8b2-14a14e1cc538" />
-<img width="224" height="288" alt="theglob" src="https://github.com/user-attachments/assets/043d37cb-a3e7-42e2-aa3f-f124fb39538f" />
-<img width="224" height="288" alt="pengo" src="https://github.com/user-attachments/assets/74120ad5-5ef3-4a2d-b4ff-8ae1740492a6" />
-<img width="198" height="255" alt="mspacman" src="https://github.com/user-attachments/assets/55845ea5-3b6c-4a97-b712-09089c671e4f" />
-<img width="224" height="288" alt="mrtnt" src="https://github.com/user-attachments/assets/d81095c8-101c-4a40-8379-cca3effc9e60" />
-<img width="224" height="288" alt="mrdo" src="https://github.com/user-attachments/assets/c0f6e7f0-0a77-461b-b977-f97415cb8122" />
-<img width="224" height="288" alt="lizwiz" src="https://github.com/user-attachments/assets/2ef2a2ef-d4b7-4691-b404-0d58fb9034ca" />
-<img width="192" height="240" alt="LadyBug" src="https://github.com/user-attachments/assets/9fed1c3f-b4c7-4eb1-bb6a-f3dc6971add2" />
-<img width="210" height="240" alt="invaders" src="https://github.com/user-attachments/assets/c242bd38-97d8-4b76-80a8-8d6e2cbe9e19" />
-<img width="210" height="240" alt="gyrrus" src="https://github.com/user-attachments/assets/58d9f40c-2246-459f-a186-5a5f17726392" />
-<img width="224" height="288" alt="frogger" src="https://github.com/user-attachments/assets/141aebbd-7346-46a8-af7c-d5d17bb1dc0b" />
-<img width="224" height="288" alt="eyes" src="https://github.com/user-attachments/assets/a1858b34-95c9-45f2-b813-3dea62a7edc3" />
-<img width="224" height="288" alt="digdug" src="https://github.com/user-attachments/assets/69952234-dfb1-4b60-907f-9a6b70a37843" />
-<img width="224" height="288" alt="crush" src="https://github.com/user-attachments/assets/316773ed-8551-417e-b092-bdbc2bb89d36" />
-<img width="224" height="288" alt="bombjack" src="https://github.com/user-attachments/assets/a0a4b67b-56fe-4b06-bb82-a44291ee4608" />
-<img width="224" height="288" alt="bagman" src="https://github.com/user-attachments/assets/ab861795-0ada-4118-8f82-5f636cac7557" />
-<img width="224" height="288" alt="anteater" src="https://github.com/user-attachments/assets/e7914917-bd36-4252-a196-c7b0d45e3da3" />
-<img width="224" height="288" alt="1942" src="https://github.com/user-attachments/assets/f09ff10f-0bfe-402b-bdc8-2f2bb9e23b82" />
-<img width="224" height="288" alt="Galaxian" src="https://github.com/user-attachments/assets/25bfec15-d028-4772-9e1f-c38b1c751271" />
-<img width="224" height="288" alt="Pacman" src="https://github.com/user-attachments/assets/218fafdf-3750-4bad-af19-9a825435d816" />
-<img width="224" height="288" alt="Galaga" src="https://github.com/user-attachments/assets/5f3d89f8-5f08-4e20-940e-c5f2a63ce4ba" />
-<img width="224" height="288" alt="DonkeyKong" src="https://github.com/user-attachments/assets/2c92ff66-bffa-435f-abea-f5aa5ad31b80" />
+![1942 screenshot](images/1942.png)
+![Ali Baba and 40 Thieves screenshot](images/alibaba.png)
+![Amidar screenshot](images/amidar.png)
+![Anteater screenshot](images/anteater.png)
+![Bagman screenshot](images/bagman.png)
+![Bombjack screenshot](images/bombjack.png)
+![Bump 'n' jump screenshot](images/bnj.png)
+![Burger time screenshot](images/btime.png)
+![Circus Charlie screenshot](images/circusc.png)
+![Crush Roller screenshot](images/crush.png)
+![Digdug screenshot](images/digdug.png)
+![Donkey Kong screenshot](images/dkong.gif)
+![Donkey Kong 3 screenshot](images/dkong3.png)
+![Donkey Kong Jr. screenshot](images/dkongjr.png)
+![Eyes screenshot](images/eyes.png)
+![Fantasy screenshot](images/fantasy.png)
+![Frogger screenshot](images/frogger.png)
+![Galaga screencast](images/galaga.gif)
+![Galaxian screenshot](images/galaxian.png)
+![Gaplus screenshot](images/gaplus.png)
+![Gyruss screenshot](images/gyruss.png)
+![Lady Bug screenshot](images/ladybug.png)
+![Lizard Wizard screenshot](images/lizwiz.png)
+![Mappy screenshot](images/mappy.png)
+![Moon Cresta screenshot](images/mooncresta.png)
+![Mr. Do screenshot](images/mrdo.png)
+![Mr. TNT screenshot](images/mrtnt.png)
+![Ms. Pacman screenshot](images/mspacman.png)
+![Nibbler screenshot](images/nibbler.png)
+![Pac-Man screenshot](images/pacman.gif)
+![Pengo screenshot](images/pengo.png)
+![Phoenix screenshot](images/phoenix.png)
+![Pinball Action screenshot](images/pbaction.png)
+![Pooyan screenshot](images/pooyan.png)
+![Roc'n rope screenshot](images/rocnrope.png)
+![Scramble screenshot](images/scramble.png)
+![Scrambled egg screenshot](images/scregg.png)
+![Space Invaders screenshot](images/invaders.png)
+![Starforce screenshot](images/starforc.png)
+![Super Cobra screenshot](images/scobra.png)
+![The Glob screenshot](images/theglob.png)
+![Time Pilot screenshot](images/timeplt.png)
+![Tower of Druaga screenshot](images/todruaga.png)
+![Turtles screenshot](images/turtles.png)
+![Tutankham screenshot](images/tutankham.png)
+![Van Van Car screenshot](images/vanvan.png)
+![Vanguard screenshot](images/vanguard.png)
+![Xevious screenshot](images/xevious.png)
+
 
 ## Software
 
@@ -74,30 +103,57 @@ Like in the original from Till Harbaum's Galaga emulator, download these files:
 * The [Galagino specific code](source/) contained in this repository
 * A [Z80 software emulation](https://fms.komkon.org/EMUL8/Z80-081707.zip) by [Marat Fayzullin](https://fms.komkon.org/)
 * The original ROM files
-    * [Galaga (Namco Rev. B ROM)](https://www.google.com/search?q=galaga.zip+arcade+rom)
-    * [Pac-Man (Midway)](https://www.google.com/search?q=pacman.zip+arcade+rom)
-    * [Donkey Kong (US set 1)](https://www.google.com/search?q=dkong.zip+arcade+rom)
-    * [Frogger](https://www.google.com/search?q=frogger.zip+arcade+rom)
-    * [Digdug](https://www.google.com/search?q=digdug.zip+arcade+rom)
     * [1942](https://www.google.com/search?q=1942.zip+arcade+rom)
-    * [Lizard Wizard](https://www.google.com/search?q=lizwiz.zip+arcade+rom)
-    * [Eyes](https://www.google.com/search?q=eyes.zip+arcade+rom)
-    * [Mr. TNT](https://www.google.com/search?q=mrtnt.zip+arcade+rom)
-    * [The Glob](https://www.google.com/search?q=theglobp.zip+arcade+rom) (Important: filename with "p")
-    * [Crush Roller](https://www.google.com/search?q=crush.zip+arcade+rom)
+    * [Ali Baba and 40 Thieves](https://www.google.com/search?q=alibaba.zip+arcade+rom)
+    * [Amidar](https://www.google.com/search?q=amidar.zip+arcade+rom)
     * [Anteater](https://www.google.com/search?q=anteater.zip+arcade+rom)
-    * [BombJack](https://www.google.com/search?q=bombjack.zip+arcade+rom)
-    * [MrDo](https://www.google.com/search?q=mrdo.zip+arcade+rom)
+    * [Bagman](https://www.google.com/search?q="bagmanm2.zip"+download) (Important: filename with "m2")
+    * [Bombjack](https://www.google.com/search?q=bombjack.zip+arcade+rom)
+    * [Bump 'n' jump](https://www.google.com/search?q=bnj.zip+arcade+rom)
+    * [Burger time](https://www.google.com/search?q=btime.zip+arcade+rom)
+    * [Circus Charlie](https://www.google.com/search?q=circusc.zip+arcade+rom)
+    * [Crush Roller](https://www.google.com/search?q=crush.zip+arcade+rom)
+    * [Digdug](https://www.google.com/search?q=digdug.zip+arcade+rom)
+    * [Donkey Kong (US set 1)](https://www.google.com/search?q=dkong.zip+arcade+rom)
+    * [Donkey Kong 3](https://www.google.com/search?q=dkong3.zip+arcade+rom)
+    * [Donkey Kong Jr. (Japan)](https://www.google.com/search?q=dkongjrj.zip+arcade+rom) (Important: filename with "jrj")
+    * [Eyes](https://www.google.com/search?q=eyes.zip+arcade+rom)
+    * [Fantasy](https://www.google.com/search?q=fantasy.zip+arcade+rom)
+    * [Frogger](https://www.google.com/search?q=frogger.zip+arcade+rom)
+    * [Galaga (Namco Rev. B ROM)](https://www.google.com/search?q=galaga.zip+arcade+rom)
+    * [Galaxian](https://www.google.com/search?q=galaxian.zip+arcade+rom)
+    * [Gaplus](https://www.google.com/search?q=gaplus.zip+arcade+rom)
+    * [Gyruss](https://www.google.com/search?q=gyruss.zip+arcade+rom)
     * [Lady Bug](https://www.google.com/search?q=ladybug.zip+arcade+rom)
-    * [Gyrrus](https://www.google.com/search?q=gyruss.zip+arcade+rom)
+    * [Lizard Wizard](https://www.google.com/search?q=lizwiz.zip+arcade+rom)
+    * [Mappy](https://www.google.com/search?q=mappy.zip+arcade+rom)
+    * [Moon Cresta](https://www.google.com/search?q=mooncrst.zip+arcade+rom)
+    * [Mr. Do!](https://www.google.com/search?q=mrdo.zip+arcade+rom)
+    * [Mr. TNT](https://www.google.com/search?q=mrtnt.zip+arcade+rom)
+    * [Ms. Pacman](https://www.google.com/search?q=mspacman.zip+arcade+rom)
+    * [Nibbler](https://www.google.com/search?q=nibbler.zip+arcade+rom)
+    * [Pac-Man (Midway)](https://www.google.com/search?q=pacman.zip+arcade+rom)
+    * [Pengo](https://www.google.com/search?q=pengo.zip+arcade+rom) 
+    * [Phoenix](https://www.google.com/search?q=phoenix.zip+arcade+rom)
+    * [Pinball Action](https://www.google.com/search?q=pbaction.zip+arcade+rom)
+    * [Pooyan](https://www.google.com/search?q=pooyan.zip+arcade+rom)
+    * [Roc'n Rope](https://www.google.com/search?q=rocnrope.zip+arcade+rom)
+    * [Scramble](https://www.google.com/search?q=scramble.zip+arcade+rom)
+    * [Scrambled egg](https://www.google.com/search?q=scregg.zip+arcade+rom)
+    * [Space Invaders](https://www.google.com/search?q=invaders.zip+arcade+rom)
+    * [Starforce](https://www.google.com/search?q=starforc.zip+arcade+rom)
+    * [Super Cobra](https://www.google.com/search?q=scobra.zip+arcade+rom)
+    * [The Glob](https://www.google.com/search?q=theglobp.zip+arcade+rom) (Important: filename with "p")
     * [Time Pilot](https://www.google.com/search?q=timeplt.zip+arcade+rom)
-    * [Galaxian](https://www.google.com/search?q=glaxian.zip+arcade+rom)
-    * [MsPacman](https://www.google.com/search?q=mspacman.zip+arcade+rom)
-    * [SpaceInvaders](https://www.google.com/search?q=invaders.zip+arcade+rom)
-    * [Thuthankam](https://www.google.com/search?q=tutankhm.zip+arcade+rom) 
-
+    * [Tower of Druaga](https://www.google.com/search?q=todruaga.zip+arcade+rom)
+    * [Turtles](https://www.google.com/search?q=turtles.zip+arcade+rom)
+    * [Tutankham](https://www.google.com/search?q=tutankhm.zip+arcade+rom)
+    * [Van Van Car](https://www.google.com/search?q=vanvan.zip+arcade+rom)
+    * [Vanguard](https://www.google.com/search?q=vanguard.zip+arcade+rom)
+    * [Xevious](https://www.google.com/search?q=xevious.zip+arcade+rom)
+      
 Due to memory limitations, not all games can be enabled. Edit the config.h file to select which games to enable. At least two must always be disabled; otherwise, they won’t fit in the ESP32’s memory.
-By default, Gyruss and Tutankham are disabled; they are still emulated but run too slowly to be playable.
+By default, only new games are enabled; some of the game are still emulated but run too slowly to be playable.
 
 Galagino uses code that is not freely available and thus not included in this repository. Preparing the firmware thus consists of a few additional steps:
 
@@ -141,11 +197,11 @@ V3.0 1/2/2026
  
 V3.1 11/3/2026
  * Added Lady Bug by Paolo Sambinello and Davide Gatti 
- * Added Gyrruss by Paolo Sambinello and Marco Prunca (Playable but with reducete audio features AY3-8910 #3 emulated instead of #5)
+ * Added Gyruss by Paolo Sambinello and Marco Prunca (Playable but with reducete audio features AY3-8910 #3 emulated instead of #5)
  * Added MsPacman by Marco Prunca (work 100%)
  * Added Pengo by Spek Hoiler and Paolo Sambinello and Marco Prunca
  * Added Time Pilot by Marco Prunca
- * Added Bagman By Spek Hoiler
+ * Added Bagman By SpeckHoiler
  * Added SpaceInvaders by Marco Prunca
  * Detect automaticallu PCF8574 / PCF8574A
  * Added Name list at boot
@@ -161,4 +217,14 @@ V3.2 26/4/2026
 
 V3.2A 21/06/2026
  * Added support for alternate Cheap Yellow Display ESP32-024, need to move Joystick Connector to upper right connector integrating +3v3 wire. See new schematic 3.0A
+
+v3.2A 48 GAMES EDITION 30/09/2026
+* Added Phoenix by Marco Prunca
+* Added Moon Cresta, Scramble and Super Cobra by [Galagino](https://github.com/galagino/galagino)
+* Added Pinball Action from [BaasPierre](https://github.com/BaasPierre)
+* Added Starforce, Donkey Kong jr and Donkey Kong 3 from [Alby1970](https://github.com/Alby1970)
+* Graphical bugs have been fixed in Mr. Do!
+* Added Pengo original version (replaces the previous version) with the original "PopCorn" music and the creation of the labyrinth at the beginning of each level by VirtualClaudioBoy.
+* Added Ali Baba and 40 Thieves, Amidar, Bump 'n' jump, Burger time, Circus Charlie, Fantasy, Gaplus, Mappy, Nibbler, Pooyan, Roc'n rope, Scrambled egg, Tower of Druaga, 
+Turtles, Van Van Car, Vanguard and Xevious by VirtualClaudioBoy
 
