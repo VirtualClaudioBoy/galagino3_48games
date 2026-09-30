@@ -2,9 +2,9 @@
 setlocal
 pushd "%~dp0"
 
-echo --------- Convert Fantasy ---------
-python .\logoconv.py ..\logos\fantasy.png ..\source\src\machines\fantasy\fantasy_logo.h
-if errorlevel 1 goto :error
+rem echo --------- Convert Fantasy ---------
+rem python .\logoconv.py ..\logos\fantasy.png ..\source\src\machines\fantasy\fantasy_logo.h
+rem if errorlevel 1 goto :error
 
 pushd fantasy
 python fantasy_rom_convert.py
