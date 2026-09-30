@@ -67,7 +67,7 @@ And uncomment the line:   #define CHEAP_YELLOW_DISPLAY_CONF_ALT
 ![Galaxian screenshot](images/galaxian.png)
 ![Gaplus screenshot](images/gaplus.png)
 ![Gyruss screenshot](images/gyruss.png)
-![Lady Bug screenshot](images/ladybug.png)
+![Lady Bug screenshot](images/LadyBug.png)
 ![Lizard Wizard screenshot](images/lizwiz.png)
 ![Mappy screenshot](images/mappy.png)
 ![Moon Cresta screenshot](images/mooncresta.png)
